@@ -381,6 +381,23 @@
   .contact .rows div .k{font-family:var(--latin);font-size:10px;letter-spacing:.24em;color:var(--mute);margin-bottom:9px;}
   .contact .rows div .v{font-size:clamp(14px,1.6vw,17px);letter-spacing:.03em;}
   .contact .rows div .v a:hover{color:var(--cyan);}
+  .contact .qr{
+    margin-top:clamp(32px,4.6vw,52px);display:flex;align-items:center;gap:clamp(16px,2.2vw,24px);
+    padding:clamp(14px,1.8vw,20px);border:1px solid var(--line);border-radius:12px;width:fit-content;
+    background:rgba(255,255,255,.03);backdrop-filter:blur(8px);
+  }
+  .contact .qr img{
+    width:clamp(96px,11.5vw,124px);height:auto;display:block;background:#fff;
+    padding:9px;border-radius:8px;
+  }
+  .contact .qr .t b{display:block;font-size:clamp(13px,1.5vw,16px);font-weight:600;letter-spacing:.04em;}
+  .contact .qr .t span{
+    display:block;margin-top:7px;font-family:var(--latin);font-size:10px;
+    letter-spacing:.16em;color:var(--mute);
+  }
+  .contact .qr .t em{
+    display:block;margin-top:10px;font-style:normal;font-size:11px;letter-spacing:.1em;color:rgba(255,255,255,.5);
+  }
   .foot{
     display:flex;justify-content:space-between;align-items:center;gap:16px;
     margin-top:clamp(50px,8vw,96px);padding:26px 0;
@@ -731,9 +748,17 @@
     <h2>如果这些画面<br>对上了你的<span>眼睛</span>，<br>我们聊聊。</h2>
     <div class="rows">
       <div><div class="k">NAME</div><div class="v">董丙玉 · DONG BINGYU</div></div>
-      <div><div class="k">PHONE</div><div class="v"><a href="tel:15068282706">150-6828-2706</a></div></div>
+      <div><div class="k">PHONE</div><div class="v">150-6828-XXXX</div></div>
       <div><div class="k">EMAIL</div><div class="v"><a href="mailto:2455163378@qq.com">2455163378@qq.com</a></div></div>
       <div><div class="k">BASE</div><div class="v">云南 · 文山 / 可远程</div></div>
+    </div>
+    <div class="qr">
+      <img src="assets/qr_portfolio.png" alt="扫码查看董丙玉在线作品集" loading="lazy" decoding="async">
+      <div class="t">
+        <b>扫码看在线作品集</b>
+        <span>PORTFOLIO · QR</span>
+        <em>手机扫描可直接浏览全部作品与动效</em>
+      </div>
     </div>
     <div class="foot">
       <span>© 2026 董丙玉 · AIGC ART DESIGNER</span>
